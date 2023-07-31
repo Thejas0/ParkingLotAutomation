@@ -1,0 +1,30 @@
+So I hope the code wors fine bu in case you run into some error these might be few error
+
+Connection of Vissim :
+    Make sure that Input.py file is run first and the Vissim environment is created and then run the main.py file
+
+Input error:
+    Make sure that the input to the file are in proper format,refer few exiting file format
+    make sure they are in the same directory
+
+Sytax Error :
+    You might get list index out of bound , then just increase the size of the list which gives this erros
+
+Function error:
+    If an any function gives an error, if the function is related to preproceesing the data or connecting to vissim,
+    just try printing the grid array (3D) which is passed to the function and check where the code fails 
+
+Error in simulation:
+    I would have attached 3 individual python files(about 1000 lines of code) were all functions will be in one file try running the code in that file if that works
+    name of those files(oneWayperpReduced,DifferentDrivelaneAngled,DifferentDrivelanePerp) for 2x2 lane( AngledReducedLinkFinal(1),perpReducedLinkMain)
+    Their might be for few corner case were the routing decison of parkinglot fail
+
+Connection,routing error: 
+    Try running the appropriateindividual python files(about 1000+ lines of code) were all functions will be in one file try running the code in that file if that works
+    name of those files(oneWayperpReduced(for driveway size 1),DifferentDrivelaneAngled(angled parking of driveway size>=2),DifferentDrivelanePerp(perpendincular parking driveway >=2)) for 2x2 lane( AngledReducedLinkFinal(1),perpReducedLinkMain)
+
+Debugging code might be a difficult task , so my best wishes are with you :P 
+
+If still the problem persists 
+contact me ;)
+thejas0212@gmail.com
